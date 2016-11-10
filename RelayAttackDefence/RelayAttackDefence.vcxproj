@@ -64,20 +64,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="D:\School\Doctorat\Groza\LocalisationAlgo.c" />
-    <ClCompile Include="D:\School\Doctorat\Groza\RfTransmitter.c" />
-    <ClCompile Include="D:\School\Doctorat\Groza\SPIdrv.c" />
-    <ClCompile Include="D:\School\Doctorat\Groza\TransceiverProjectConfiguration.c" />
+    <ClCompile Include="..\Sources\LocalisationAlgo.c" />
+    <ClCompile Include="..\Sources\RfTransmitter.c" />
+    <ClCompile Include="..\Sources\SPIdrv.c" />
+    <ClCompile Include="..\Sources\TransceiverProjectConfiguration.c" />
     <ClCompile Include="D:\School\Doctorat\Groza\Utilities.c" />
-    <ClCompile Include="main.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Headers\LocalisationAlgo.h" />
+    <ClInclude Include="..\Headers\RfTransmitter.h" />
+    <ClInclude Include="..\Headers\Std_Types.h" />
+    <ClInclude Include="..\Headers\TransceiverProjectConfiguration.h" />
+    <ClInclude Include="..\Headers\TransceiverTypes.h" />
+    <ClInclude Include="..\Headers\Utilities.h" />
     <ClInclude Include="D:\School\Doctorat\Groza\LocalisationAlgo.h" />
     <ClInclude Include="D:\School\Doctorat\Groza\RfTransmitter.h" />
     <ClInclude Include="D:\School\Doctorat\Groza\SPIdrv.h" />
     <ClInclude Include="D:\School\Doctorat\Groza\Std_Types.h" />
-    <ClInclude Include="D:\School\Doctorat\Groza\TransceiverProjectConfiguration.h" />
-    <ClInclude Include="D:\School\Doctorat\Groza\TransceiverTypes.h" />
     <ClInclude Include="D:\School\Doctorat\Groza\Utilities.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

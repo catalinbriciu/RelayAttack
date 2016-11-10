@@ -13,35 +13,32 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{2b900aad-ac6f-4223-82a6-2b00128e68b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{9174a811-7848-4ec9-9bb4-a07545407f9d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="D:\School\Doctorat\Groza\Utilities.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\School\Doctorat\Groza\TransceiverProjectConfiguration.c">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\Sources\LocalisationAlgo.c">
+      <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="D:\School\Doctorat\Groza\SPIdrv.c">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\Sources\RfTransmitter.c">
+      <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="D:\School\Doctorat\Groza\RfTransmitter.c">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\Sources\SPIdrv.c">
+      <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="D:\School\Doctorat\Groza\LocalisationAlgo.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="main.c">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="..\Sources\TransceiverProjectConfiguration.c">
+      <Filter>Sources</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D:\School\Doctorat\Groza\Utilities.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\School\Doctorat\Groza\TransceiverTypes.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\School\Doctorat\Groza\TransceiverProjectConfiguration.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="D:\School\Doctorat\Groza\SPIdrv.h">
@@ -55,6 +52,24 @@
     </ClInclude>
     <ClInclude Include="D:\School\Doctorat\Groza\Std_Types.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\LocalisationAlgo.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\RfTransmitter.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Std_Types.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\TransceiverProjectConfiguration.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\TransceiverTypes.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Utilities.h">
+      <Filter>Headers</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
